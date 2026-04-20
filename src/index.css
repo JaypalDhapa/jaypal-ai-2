@@ -38,6 +38,7 @@ body {
   color: var(--text);
   -webkit-font-smoothing: antialiased;
   overflow: hidden;
+  overscroll-behavior: none; 
 }
 
 ::-webkit-scrollbar { width: 5px; height: 5px; }
