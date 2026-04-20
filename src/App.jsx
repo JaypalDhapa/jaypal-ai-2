@@ -83,8 +83,8 @@ export default function App() {
     if (!chat.isStreaming) {
       isUserScrollingRef.current = false
       setShowScrollBtn(false)
-      const el = scrollRef.current
-      if (el) el.scrollTo({ top: el.scrollHeight, behavior: 'smooth' })
+      // const el = scrollRef.current
+      // if (el) el.scrollTo({ top: el.scrollHeight, behavior: 'smooth' })
     }
   }, [chat.isStreaming])
 
