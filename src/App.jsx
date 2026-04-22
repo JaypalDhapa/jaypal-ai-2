@@ -164,7 +164,7 @@ export default function App() {
               <div className={styles.emptyIcon}><SparkleIcon /></div>
               <h1 className={styles.emptyTitle}>Jaypal AI</h1>
               <p className={styles.emptySubtitle}>What can I help you with?</p>
-              <div className={styles.suggestions}>
+              {/* <div className={styles.suggestions}>
                 {SUGGESTIONS.map(s => (
                   <button
                     key={s.text}
@@ -175,7 +175,7 @@ export default function App() {
                     <span className={styles.suggText}>{s.text}</span>
                   </button>
                 ))}
-              </div>
+              </div> */}
             </div>
           ) : (
             <div className={styles.messages}>
