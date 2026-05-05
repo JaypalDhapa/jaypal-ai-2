@@ -125,7 +125,7 @@ export function useChat() {
           ...c,
           messages: c.messages.map(m =>
             m.id === aiMsg.id
-              ? { ...m, content: fullText || 'No response received.', streaming: false }
+              ? { ...m, content: fullText || 'on Training mode - **jaypal ** is working on training me', streaming: false }
               : m
           ),
         }
